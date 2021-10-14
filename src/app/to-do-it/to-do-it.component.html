@@ -1,0 +1,2 @@
+<h3>{{todo.title}}</h3>
+<p>{{todo.completed}}</p> <button (click)="deleteMeFhater()">Borrar</button> <button (click)="showEdit()">Editar</button><span [hidden]=" editando === false"><input [(ngModel)]="task" type="text"> <button (click)="editMeFhater()">Guardar</button></span>
